@@ -57,6 +57,8 @@ figcaption{font-size:14px;color:var(--soft)}
 @media (max-width:640px){.gal{grid-template-columns:1fr}.gal .tall{grid-row:auto;grid-column:auto}.gal .tall img{aspect-ratio:3/4;height:auto;flex:none}}
 .scrollx{overflow-x:auto;-webkit-overflow-scrolling:touch}
 @media (max-width:640px){.scrollx img{width:900px!important;max-width:none}}
+.gal2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+@media (max-width:640px){.gal2{grid-template-columns:1fr}}
 .logos{display:flex;flex-wrap:wrap;align-items:center;gap:20px 32px}
 .checks{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:12px}
 .checks li{display:flex;gap:14px;align-items:flex-start;border:1px solid var(--line);border-radius:16px;padding:16px 18px}
@@ -174,10 +176,9 @@ figcaption{font-size:14px;color:var(--soft)}
 <p class="eyebrow">Photos and video</p>
 <h2>Tito's in the crowd.</h2>
 </div>
-<div class="gal">
-<figure><img src="/assets/titos-garnish.jpg" alt="The garnish station: a Tito's Lantern Punch beside bowls of dried citrus wheels, fresh basil and light-up ice cubes" style="width:100%;aspect-ratio:4/3;object-fit:cover;object-position:center 30%;border-radius:20px"><figcaption>The garnish station: dried citrus, fresh basil and light-up ice cubes.</figcaption></figure>
-<figure class="tall"><img src="/assets/titos-guest.jpg" alt="A guest holding a Tito's Lantern Punch at the festival at dusk" style="width:100%;object-fit:cover;border-radius:20px"><figcaption>A Lantern Punch out in the festival at dusk.</figcaption></figure>
-<figure><img src="/assets/titos-bar.jpg" alt="Bartenders serving a guest, with Tito's on the counter and on the bar menus" style="width:100%;aspect-ratio:4/3;object-fit:cover;object-position:left center;border-radius:20px"><figcaption>Tito's on the counter at the general bar.</figcaption></figure>
+<div class="gal2">
+<figure><img src="/assets/titos-guest.jpg" alt="A guest holding a Tito's Lantern Punch at the festival at dusk" style="width:100%;aspect-ratio:3/4;object-fit:cover;object-position:center 30%;border-radius:20px"><figcaption>A Lantern Punch out in the festival at dusk.</figcaption></figure>
+<figure><img src="/assets/titos-garnish.jpg" alt="The garnish station: a Tito's Lantern Punch beside bowls of dried citrus wheels, fresh basil and light-up ice cubes" style="width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:20px"><figcaption>The garnish station: dried citrus, fresh basil and light-up ice cubes.</figcaption></figure>
 </div>
 <p style="font-size:14px;color:var(--soft)">Full-resolution photos and the video are available on request.</p>
 </div>
